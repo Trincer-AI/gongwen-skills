@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-virtual-real-combination-01",
+    "skill": "gongwen-virtual-real-combination",
+    "prompt": "领导说我写的材料太虚了，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-virtual-real-combination",
+    "scenario": "秘书场景 - 材料空洞化改进指导"
+  },
+  {
+    "id": "test-gongwen-virtual-real-combination-02",
+    "skill": "gongwen-virtual-real-combination",
+    "prompt": "虚实结合是什么意思？",
+    "type": "should_use",
+    "expected_skill": "gongwen-virtual-real-combination",
+    "scenario": "思维顾问场景 - 公文虚实结构原理阐释"
+  },
+  {
+    "id": "test-gongwen-virtual-real-combination-03",
+    "skill": "gongwen-virtual-real-combination",
+    "prompt": "句子不通顺",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "诱饵 - 句子通顺问题应触发句子写作技能"
+  }
+]

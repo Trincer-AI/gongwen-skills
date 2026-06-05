@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-content-expand-01",
+    "skill": "gongwen-content-expand",
+    "prompt": "领导给了三句话，我怎么拆出三页纸？",
+    "type": "should_use",
+    "expected_skill": "gongwen-content-expand",
+    "scenario": "秘书场景 - 内容扩充问题"
+  },
+  {
+    "id": "test-gongwen-content-expand-02",
+    "skill": "gongwen-content-expand",
+    "prompt": "怎么把要点写充实？有哪些展开方法？",
+    "type": "should_use",
+    "expected_skill": "gongwen-content-expand",
+    "scenario": "思维顾问场景 - 咨询内容展开方法"
+  },
+  {
+    "id": "test-gongwen-content-expand-03",
+    "skill": "gongwen-content-expand",
+    "prompt": "这段话太啰嗦了，怎么删？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "诱饵 - 删减问题，不是扩充问题"
+  }
+]

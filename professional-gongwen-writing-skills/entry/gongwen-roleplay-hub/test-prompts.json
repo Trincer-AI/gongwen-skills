@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-roleplay-hub-01",
+    "skill": "gongwen-roleplay-hub",
+    "prompt": "你扮演办公室主任，帮我看这份通知有哪些硬伤。",
+    "type": "should_use",
+    "expected_skill": "gongwen-roleplay-hub",
+    "scenario": "角色扮演场景 - 审稿批注"
+  },
+  {
+    "id": "test-gongwen-roleplay-hub-02",
+    "skill": "gongwen-roleplay-hub",
+    "prompt": "模拟一下我向领导汇报这份讲话稿时，他可能会追问什么。",
+    "type": "should_use",
+    "expected_skill": "gongwen-roleplay-hub",
+    "scenario": "角色扮演场景 - 会前预演"
+  },
+  {
+    "id": "test-gongwen-roleplay-hub-03",
+    "skill": "gongwen-roleplay-hub",
+    "prompt": "帮我直接写一份关于防汛工作的通知。",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-secretary-hub",
+    "scenario": "诱饵 - 这是秘书写作问题"
+  }
+]

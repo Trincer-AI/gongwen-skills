@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-title-design-01",
+    "skill": "gongwen-title-design",
+    "prompt": "写一份工作总结，标题怎么起？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "秘书场景 - 需要设计标题"
+  },
+  {
+    "id": "test-gongwen-title-design-02",
+    "skill": "gongwen-title-design",
+    "prompt": "好的公文标题应该怎么写？有什么技巧？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "思维顾问场景 - 咨询标题技巧"
+  },
+  {
+    "id": "test-gongwen-title-design-03",
+    "skill": "gongwen-title-design",
+    "prompt": "这个通知发不出去，因为标题写错了",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "诱饵 - 文种选择问题，不是标题设计问题"
+  }
+]

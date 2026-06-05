@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-facade-hub-01",
+    "skill": "gongwen-facade-hub",
+    "prompt": "这个材料怎么处理，你帮我看看。",
+    "type": "should_use",
+    "expected_skill": "gongwen-facade-hub",
+    "scenario": "统一入口场景 - 用户意图模糊"
+  },
+  {
+    "id": "test-gongwen-facade-hub-02",
+    "skill": "gongwen-facade-hub",
+    "prompt": "先帮我判断这该用什么文种，再给我起个框架。",
+    "type": "should_use",
+    "expected_skill": "gongwen-facade-hub",
+    "scenario": "统一入口场景 - 规则加生成的混合需求"
+  },
+  {
+    "id": "test-gongwen-facade-hub-03",
+    "skill": "gongwen-facade-hub",
+    "prompt": "帮我直接写一份关于防汛值班的通知。",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-secretary-hub",
+    "scenario": "诱饵 - 已经是明确秘书任务"
+  }
+]

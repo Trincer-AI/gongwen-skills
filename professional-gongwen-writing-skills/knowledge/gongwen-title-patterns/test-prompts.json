@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-title-patterns-01",
+    "skill": "gongwen-title-patterns",
+    "prompt": "小标题怎么排布？有什么格式？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-patterns",
+    "scenario": "秘书场景 - 秘书在组织长篇公文结构时，不知道如何设置和排布各级小标题"
+  },
+  {
+    "id": "test-gongwen-title-patterns-02",
+    "skill": "gongwen-title-patterns",
+    "prompt": "标题格式有什么讲究？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-patterns",
+    "scenario": "思维顾问场景 - 学员想深入理解公文标题的内在逻辑和格式规范背后的原理"
+  },
+  {
+    "id": "test-gongwen-title-patterns-03",
+    "skill": "gongwen-title-patterns",
+    "prompt": "帮我写一份报告",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-search-deep",
+    "scenario": "诱饵 - 用户需要的是整篇报告的写作引导，而非标题格式，应触发深度写作技能"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-subjective-activation-01",
+    "skill": "gongwen-subjective-activation",
+    "prompt": "这个主题我没写过，不知道怎么下手",
+    "type": "should_use",
+    "expected_skill": "gongwen-subjective-activation",
+    "scenario": "秘书场景 - 新主题写作主观能动性激活"
+  },
+  {
+    "id": "test-gongwen-subjective-activation-02",
+    "skill": "gongwen-subjective-activation",
+    "prompt": "怎么克服'等靠要'思想？",
+    "type": "should_use",
+    "expected_skill": "gongwen-subjective-activation",
+    "scenario": "思维顾问场景 - 依赖心理突破方法"
+  },
+  {
+    "id": "test-gongwen-subjective-activation-03",
+    "skill": "gongwen-subjective-activation",
+    "prompt": "帮我找参考材料",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-search-deep",
+    "scenario": "诱饵 - 搜索材料应触发深度搜索技能"
+  }
+]

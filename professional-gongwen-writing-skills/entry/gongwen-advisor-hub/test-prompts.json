@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-advisor-hub-01",
+    "skill": "gongwen-advisor-hub",
+    "prompt": "为什么我写工作总结总像流水账？",
+    "type": "should_use",
+    "expected_skill": "gongwen-advisor-hub",
+    "scenario": "思维顾问场景 - 诊断写作卡点"
+  },
+  {
+    "id": "test-gongwen-advisor-hub-02",
+    "skill": "gongwen-advisor-hub",
+    "prompt": "怎么系统练公文写作，别让我一直原地打转？",
+    "type": "should_use",
+    "expected_skill": "gongwen-advisor-hub",
+    "scenario": "思维顾问场景 - 训练路径设计"
+  },
+  {
+    "id": "test-gongwen-advisor-hub-03",
+    "skill": "gongwen-advisor-hub",
+    "prompt": "你扮演领导批一下这份讲话稿。",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-roleplay-hub",
+    "scenario": "诱饵 - 这是角色扮演问题"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "test-gongwen-search-deep-01",
+    "skill": "gongwen-search-deep",
+    "prompt": "领导要一份关于乡村振兴的工作报告，我从没写过这个主题，帮我找找参考",
+    "type": "should_use",
+    "expected_skill": "gongwen-search-deep",
+    "scenario": "秘书场景 - 需要搜索素材"
+  },
+  {
+    "id": "test-gongwen-search-deep-02",
+    "skill": "gongwen-search-deep",
+    "prompt": "如何高效积累公文素材库？有什么搜索渠道推荐？",
+    "type": "should_use",
+    "expected_skill": "gongwen-search-deep",
+    "scenario": "思维顾问场景 - 咨询检索方法"
+  },
+  {
+    "id": "test-gongwen-search-deep-03",
+    "skill": "gongwen-search-deep",
+    "prompt": "你能扮演资深办文人员，示范如何用微观搜索找到精准素材吗？",
+    "type": "should_use",
+    "expected_skill": "gongwen-search-deep",
+    "scenario": "角色扮演场景 - 示范搜索方法"
+  },
+  {
+    "id": "test-gongwen-search-deep-04",
+    "skill": "gongwen-search-deep",
+    "prompt": "这个字怎么读？什么意思？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-word-usage",
+    "scenario": "诱饵 - 纯知识性问题，不是检索问题"
+  },
+  {
+    "id": "test-gongwen-search-deep-05",
+    "skill": "gongwen-search-deep",
+    "prompt": "写一份关于安全生产的通知",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "诱饵 - 直接要求写公文，不是检索素材"
+  },
+  {
+    "id": "test-gongwen-title-design-01",
+    "skill": "gongwen-title-design",
+    "prompt": "写一份工作总结，标题怎么起？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "秘书场景 - 需要设计标题"
+  },
+  {
+    "id": "test-gongwen-title-design-02",
+    "skill": "gongwen-title-design",
+    "prompt": "好的公文标题应该怎么写？有什么技巧？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "思维顾问场景 - 咨询标题技巧"
+  },
+  {
+    "id": "test-gongwen-title-design-03",
+    "skill": "gongwen-title-design",
+    "prompt": "这份材料的标题花里胡哨但内容空洞，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "秘书场景 - 标题有问题需要修改"
+  },
+  {
+    "id": "test-gongwen-title-design-04",
+    "skill": "gongwen-title-design",
+    "prompt": "这个通知发不出去，因为标题写错了",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "诱饵 - 文种选择问题，不是标题设计问题"
+  },
+  {
+    "id": "test-gongwen-sentence-write-01",
+    "skill": "gongwen-sentence-write",
+    "prompt": "这个句子太长了，读不通顺，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "秘书场景 - 句子撰写问题"
+  },
+  {
+    "id": "test-gongwen-structure-build-01",
+    "skill": "gongwen-structure-build",
+    "prompt": "写讲话稿之前，框架怎么搭？",
+    "type": "should_use",
+    "expected_skill": "gongwen-structure-build",
+    "scenario": "秘书场景 - 搭框架问题"
+  },
+  {
+    "id": "test-gongwen-content-expand-01",
+    "skill": "gongwen-content-expand",
+    "prompt": "领导给了三句话，我怎么拆出三页纸？",
+    "type": "should_use",
+    "expected_skill": "gongwen-content-expand",
+    "scenario": "秘书场景 - 内容扩充问题"
+  },
+  {
+    "id": "test-gongwen-edit-reduce-01",
+    "skill": "gongwen-edit-reduce",
+    "prompt": "这份材料太啰嗦了，怎么删减？",
+    "type": "should_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "秘书场景 - 减法写作问题"
+  },
+  {
+    "id": "test-gongwen-proofread-01",
+    "skill": "gongwen-proofread",
+    "prompt": "写完了怎么检查有没有错字？",
+    "type": "should_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "秘书场景 - 复核检查问题"
+  },
+  {
+    "id": "test-gongwen-perspective-take-01",
+    "skill": "gongwen-perspective-take",
+    "prompt": "站位不够高怎么办？怎么换位思考？",
+    "type": "should_use",
+    "expected_skill": "gongwen-perspective-take",
+    "scenario": "思维顾问场景 - 换位技巧问题"
+  },
+  {
+    "id": "test-gongwen-material-transform-01",
+    "skill": "gongwen-material-transform",
+    "prompt": "同一件事能不能写出五种不同的公文？",
+    "type": "should_use",
+    "expected_skill": "gongwen-material-transform",
+    "scenario": "秘书场景 - 材料转化问题"
+  },
+  {
+    "id": "test-gongwen-speech-draft-01",
+    "skill": "gongwen-speech-draft",
+    "prompt": "领导讲话稿怎么写？有什么框架？",
+    "type": "should_use",
+    "expected_skill": "gongwen-speech-draft",
+    "scenario": "秘书场景 - 讲话稿撰写问题"
+  },
+  {
+    "id": "test-gongwen-format-basic-01",
+    "skill": "gongwen-format-basic",
+    "prompt": "公文格式有什么要求？页面怎么设置？",
+    "type": "should_use",
+    "expected_skill": "gongwen-format-basic",
+    "scenario": "知识场景 - 格式知识问题"
+  },
+  {
+    "id": "test-gongwen-doc-types-01",
+    "skill": "gongwen-doc-types",
+    "prompt": "通知和通报有什么区别？什么时候用什么？",
+    "type": "should_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "知识场景 - 文种选择问题"
+  },
+  {
+    "id": "test-gongwen-active-vs-passive-01",
+    "skill": "gongwen-active-vs-passive",
+    "prompt": "领导布置了个任务我没写过，我不想写怎么办？",
+    "type": "should_use",
+    "expected_skill": "gongwen-active-vs-passive",
+    "scenario": "思维顾问场景 - 抗拒思维问题"
+  },
+  {
+    "id": "test-gongwen-virtual-real-01",
+    "skill": "gongwen-virtual-real-combination",
+    "prompt": "领导说我写的材料太虚了，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-virtual-real-combination",
+    "scenario": "秘书场景 - 虚实结合问题"
+  }
+]

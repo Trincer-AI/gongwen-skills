@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-edit-reduce-01",
+    "skill": "gongwen-edit-reduce",
+    "prompt": "这份材料太啰嗦了，怎么删减？",
+    "type": "should_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "秘书场景 - 减法写作问题"
+  },
+  {
+    "id": "test-gongwen-edit-reduce-02",
+    "skill": "gongwen-edit-reduce",
+    "prompt": "怎么做到'多一分则肥，少一分则瘦'？",
+    "type": "should_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "思维顾问场景 - 咨询精炼写作"
+  },
+  {
+    "id": "test-gongwen-edit-reduce-03",
+    "skill": "gongwen-edit-reduce",
+    "prompt": "帮我写一份关于安全生产的通知",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "诱饵 - 直接写公文请求，不是删减问题"
+  }
+]

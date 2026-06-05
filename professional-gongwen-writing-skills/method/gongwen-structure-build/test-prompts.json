@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-structure-build-01",
+    "skill": "gongwen-structure-build",
+    "prompt": "写讲话稿之前，框架怎么搭？",
+    "type": "should_use",
+    "expected_skill": "gongwen-structure-build",
+    "scenario": "秘书场景 - 搭框架问题"
+  },
+  {
+    "id": "test-gongwen-structure-build-02",
+    "skill": "gongwen-structure-build",
+    "prompt": "文章结构怎么设计最合理？",
+    "type": "should_use",
+    "expected_skill": "gongwen-structure-build",
+    "scenario": "思维顾问场景 - 咨询结构设计"
+  },
+  {
+    "id": "test-gongwen-structure-build-03",
+    "skill": "gongwen-structure-build",
+    "prompt": "领导说我写的材料太虚了，怎么改？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-virtual-real-combination",
+    "scenario": "诱饵 - 虚实结合问题，不是结构问题"
+  }
+]

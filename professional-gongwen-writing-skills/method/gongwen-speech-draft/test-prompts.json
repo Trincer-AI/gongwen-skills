@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-speech-draft-01",
+    "skill": "gongwen-speech-draft",
+    "prompt": "领导讲话稿怎么写？有什么框架？",
+    "type": "should_use",
+    "expected_skill": "gongwen-speech-draft",
+    "scenario": "秘书场景 - 讲话稿撰写问题"
+  },
+  {
+    "id": "test-gongwen-speech-draft-02",
+    "skill": "gongwen-speech-draft",
+    "prompt": "讲话稿和普通公文有什么区别？写讲话稿有什么特别要注意的？",
+    "type": "should_use",
+    "expected_skill": "gongwen-speech-draft",
+    "scenario": "思维顾问场景 - 讲话稿特点咨询"
+  },
+  {
+    "id": "test-gongwen-speech-draft-03",
+    "skill": "gongwen-speech-draft",
+    "prompt": "帮我写一份关于安全生产的通知",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "诱饵 - 通知撰写问题，不是讲话稿问题"
+  }
+]

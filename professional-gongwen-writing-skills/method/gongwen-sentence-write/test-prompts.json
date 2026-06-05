@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-sentence-write-01",
+    "skill": "gongwen-sentence-write",
+    "prompt": "这个句子太长了，读不通顺，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "秘书场景 - 句子撰写问题"
+  },
+  {
+    "id": "test-gongwen-sentence-write-02",
+    "skill": "gongwen-sentence-write",
+    "prompt": "公文句子和普通文章句子的区别是什么？",
+    "type": "should_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "思维顾问场景 - 咨询公文句子特点"
+  },
+  {
+    "id": "test-gongwen-sentence-write-03",
+    "skill": "gongwen-sentence-write",
+    "prompt": "全文有没有错字？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "诱饵 - 校对问题，不是句子撰写问题"
+  }
+]

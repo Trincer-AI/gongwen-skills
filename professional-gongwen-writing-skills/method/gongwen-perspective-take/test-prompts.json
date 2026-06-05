@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-perspective-take-01",
+    "skill": "gongwen-perspective-take",
+    "prompt": "领导说我站位不够高，怎么改？",
+    "type": "should_use",
+    "expected_skill": "gongwen-perspective-take",
+    "scenario": "秘书场景 - 站位提升问题"
+  },
+  {
+    "id": "test-gongwen-perspective-take-02",
+    "skill": "gongwen-perspective-take",
+    "prompt": "站位不够高怎么办？怎么换位思考？",
+    "type": "should_use",
+    "expected_skill": "gongwen-perspective-take",
+    "scenario": "思维顾问场景 - 换位技巧咨询"
+  },
+  {
+    "id": "test-gongwen-perspective-take-03",
+    "skill": "gongwen-perspective-take",
+    "prompt": "这份工作总结的标题怎么起？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "诱饵 - 标题设计问题，不是站位问题"
+  }
+]

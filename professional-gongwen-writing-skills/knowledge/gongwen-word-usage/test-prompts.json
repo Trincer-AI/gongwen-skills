@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-word-usage-01",
+    "skill": "gongwen-word-usage",
+    "prompt": "这个词能用吗？用词是否准确？",
+    "type": "should_use",
+    "expected_skill": "gongwen-word-usage",
+    "scenario": "秘书场景 - 秘书在写作中犹豫某个词汇是否恰当，希望确认用词的准确性和规范"
+  },
+  {
+    "id": "test-gongwen-word-usage-02",
+    "skill": "gongwen-word-usage",
+    "prompt": "怎么避免用词错误？",
+    "type": "should_use",
+    "expected_skill": "gongwen-word-usage",
+    "scenario": "思维顾问场景 - 学员想系统提升用词准确性，了解公文写作中常见用词陷阱"
+  },
+  {
+    "id": "test-gongwen-word-usage-03",
+    "skill": "gongwen-word-usage",
+    "prompt": "帮我检查全文错字",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "诱饵 - 用户需要的是全文校对话技能，而非用词准确性判断，应触发校对技能"
+  }
+]

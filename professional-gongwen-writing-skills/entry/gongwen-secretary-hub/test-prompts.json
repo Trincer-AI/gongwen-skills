@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-secretary-hub-01",
+    "skill": "gongwen-secretary-hub",
+    "prompt": "帮我写一份关于端午节值班安排的通知。",
+    "type": "should_use",
+    "expected_skill": "gongwen-secretary-hub",
+    "scenario": "秘书场景 - 直接起草公文"
+  },
+  {
+    "id": "test-gongwen-secretary-hub-02",
+    "skill": "gongwen-secretary-hub",
+    "prompt": "把这篇半年工作总结压缩成 1200 字，语气正式一点。",
+    "type": "should_use",
+    "expected_skill": "gongwen-secretary-hub",
+    "scenario": "秘书场景 - 改稿压稿"
+  },
+  {
+    "id": "test-gongwen-secretary-hub-03",
+    "skill": "gongwen-secretary-hub",
+    "prompt": "为什么我每次写材料都觉得没意义？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-advisor-hub",
+    "scenario": "诱饵 - 这是思维顾问问题"
+  }
+]

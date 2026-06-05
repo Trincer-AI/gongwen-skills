@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-problem-analysis-01",
+    "skill": "gongwen-problem-analysis",
+    "prompt": "怎么审题？领导想要什么？",
+    "type": "should_use",
+    "expected_skill": "gongwen-problem-analysis",
+    "scenario": "秘书场景 - 秘书接到任务后不知道如何准确理解领导意图和任务要求"
+  },
+  {
+    "id": "test-gongwen-problem-analysis-02",
+    "skill": "gongwen-problem-analysis",
+    "prompt": "拿到任务不知道怎么下手怎么办？",
+    "type": "should_use",
+    "expected_skill": "gongwen-problem-analysis",
+    "scenario": "思维顾问场景 - 学员面对公文任务时缺乏分析框架，希望建立系统的问题分析方法"
+  },
+  {
+    "id": "test-gongwen-problem-analysis-03",
+    "skill": "gongwen-problem-analysis",
+    "prompt": "这句话太长了",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "诱饵 - 用户关注的是句子撰写技巧（长句拆短），而非任务分析，应触发句子写作技能"
+  }
+]

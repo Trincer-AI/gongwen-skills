@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-format-basic-01",
+    "skill": "gongwen-format-basic",
+    "prompt": "公文格式有什么要求？页面怎么设置？",
+    "type": "should_use",
+    "expected_skill": "gongwen-format-basic",
+    "scenario": "秘书场景 - 新手秘书刚接手公文工作，不知道公文的页面设置、边距、页码等基本格式规范"
+  },
+  {
+    "id": "test-gongwen-format-basic-02",
+    "skill": "gongwen-format-basic",
+    "prompt": "字体字号有什么规范？",
+    "type": "should_use",
+    "expected_skill": "gongwen-format-basic",
+    "scenario": "思维顾问场景 - 学员请教公文写作中的字体字号选择问题，希望理解背后的规范逻辑"
+  },
+  {
+    "id": "test-gongwen-format-basic-03",
+    "skill": "gongwen-format-basic",
+    "prompt": "这个标题怎么写？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-title-patterns",
+    "scenario": "诱饵 - 用户问的是标题的具体写法，而非格式规范，应触发标题技能"
+  }
+]

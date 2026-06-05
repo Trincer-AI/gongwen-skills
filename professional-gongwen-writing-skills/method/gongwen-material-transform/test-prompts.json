@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-material-transform-01",
+    "skill": "gongwen-material-transform",
+    "prompt": "同一件事能不能写出五种不同的公文？",
+    "type": "should_use",
+    "expected_skill": "gongwen-material-transform",
+    "scenario": "秘书场景 - 材料多用途问题"
+  },
+  {
+    "id": "test-gongwen-material-transform-02",
+    "skill": "gongwen-material-transform",
+    "prompt": "一个素材怎么多用？怎么做到一鱼多吃？",
+    "type": "should_use",
+    "expected_skill": "gongwen-material-transform",
+    "scenario": "思维顾问场景 - 素材转化咨询"
+  },
+  {
+    "id": "test-gongwen-material-transform-03",
+    "skill": "gongwen-material-transform",
+    "prompt": "这份材料太啰嗦了，怎么删减？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "诱饵 - 减法写作问题，不是材料转化问题"
+  }
+]

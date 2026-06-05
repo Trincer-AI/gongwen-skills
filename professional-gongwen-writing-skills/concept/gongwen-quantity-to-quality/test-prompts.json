@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-quantity-to-quality-01",
+    "skill": "gongwen-quantity-to-quality",
+    "prompt": "我写了很多但没进步，怎么提高？",
+    "type": "should_use",
+    "expected_skill": "gongwen-quantity-to-quality",
+    "scenario": "秘书场景 - 写作量质转化路径指导"
+  },
+  {
+    "id": "test-gongwen-quantity-to-quality-02",
+    "skill": "gongwen-quantity-to-quality",
+    "prompt": "怎么才能从量变到质变？",
+    "type": "should_use",
+    "expected_skill": "gongwen-quantity-to-quality",
+    "scenario": "思维顾问场景 - 写作能力跃迁原理"
+  },
+  {
+    "id": "test-gongwen-quantity-to-quality-03",
+    "skill": "gongwen-quantity-to-quality",
+    "prompt": "帮我检查错字",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "诱饵 - 错字检查应触发校对技能"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-doc-types-01",
+    "skill": "gongwen-doc-types",
+    "prompt": "通知和通报有什么区别？什么时候用什么？",
+    "type": "should_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "秘书场景 - 秘书在起草公文时犹豫该用通知还是通报，希望区分两者的适用场景"
+  },
+  {
+    "id": "test-gongwen-doc-types-02",
+    "skill": "gongwen-doc-types",
+    "prompt": "有哪些法定公文文种？",
+    "type": "should_use",
+    "expected_skill": "gongwen-doc-types",
+    "scenario": "思维顾问场景 - 学员系统学习公文知识，想了解法定公文文种的完整体系"
+  },
+  {
+    "id": "test-gongwen-doc-types-03",
+    "skill": "gongwen-doc-types",
+    "prompt": "这份材料太啰嗦了",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-edit-reduce",
+    "scenario": "诱饵 - 用户抱怨文章冗长，需要的是精简编辑技能而非文种选择"
+  }
+]

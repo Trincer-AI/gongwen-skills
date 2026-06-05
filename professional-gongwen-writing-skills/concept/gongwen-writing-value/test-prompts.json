@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-writing-value-01",
+    "skill": "gongwen-writing-value",
+    "prompt": "写材料有什么意义？值不值得花时间？",
+    "type": "should_use",
+    "expected_skill": "gongwen-writing-value",
+    "scenario": "秘书场景 - 材料写作价值认知建立"
+  },
+  {
+    "id": "test-gongwen-writing-value-02",
+    "skill": "gongwen-writing-value",
+    "prompt": "怎么看待写作的价值？",
+    "type": "should_use",
+    "expected_skill": "gongwen-writing-value",
+    "scenario": "思维顾问场景 - 公文写作价值观念重塑"
+  },
+  {
+    "id": "test-gongwen-writing-value-03",
+    "skill": "gongwen-writing-value",
+    "prompt": "格式怎么调",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-format-basic",
+    "scenario": "诱饵 - 格式调整应触发基础格式技能"
+  }
+]

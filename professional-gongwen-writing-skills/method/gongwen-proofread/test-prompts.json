@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-proofread-01",
+    "skill": "gongwen-proofread",
+    "prompt": "写完了怎么检查有没有错字？",
+    "type": "should_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "秘书场景 - 复核检查问题"
+  },
+  {
+    "id": "test-gongwen-proofread-02",
+    "skill": "gongwen-proofread",
+    "prompt": "复核有什么技巧？怎么才能做到万无一失？",
+    "type": "should_use",
+    "expected_skill": "gongwen-proofread",
+    "scenario": "思维顾问场景 - 复核技巧咨询"
+  },
+  {
+    "id": "test-gongwen-proofread-03",
+    "skill": "gongwen-proofread",
+    "prompt": "这段话读不通顺，帮我改顺",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-sentence-write",
+    "scenario": "诱饵 - 句子不通顺是写作问题，不是校对问题"
+  }
+]

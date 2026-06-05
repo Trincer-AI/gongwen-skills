@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-gongwen-active-vs-passive-01",
+    "skill": "gongwen-active-vs-passive",
+    "prompt": "我不想写这个材料，能拖吗？",
+    "type": "should_use",
+    "expected_skill": "gongwen-active-vs-passive",
+    "scenario": "秘书场景 - 材料写作拖延心理应对"
+  },
+  {
+    "id": "test-gongwen-active-vs-passive-02",
+    "skill": "gongwen-active-vs-passive",
+    "prompt": "写公文总是拖延怎么办？",
+    "type": "should_use",
+    "expected_skill": "gongwen-active-vs-passive",
+    "scenario": "思维顾问场景 - 公文写作主动性问题诊断"
+  },
+  {
+    "id": "test-gongwen-active-vs-passive-03",
+    "skill": "gongwen-active-vs-passive",
+    "prompt": "标题怎么写？",
+    "type": "should_not_use",
+    "expected_skill": "gongwen-title-design",
+    "scenario": "诱饵 - 标题设计问题应触发标题设计技能"
+  }
+]
